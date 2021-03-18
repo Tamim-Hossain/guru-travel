@@ -15,7 +15,7 @@
 	cursor: pointer;
 }
 .cardActive {
-	border: 4px solid #ffc107 !important;
+	border: 6px solid #ffc107 !important;
 	border-radius: 20px !important;
 }
 .card-title {

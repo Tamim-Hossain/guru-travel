@@ -2,7 +2,7 @@ import { useContext, useEffect } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { UserContext } from "../../App";
-import hotelsData from "../../fakeData/hotelsData.json";
+import hotelsData from "../../fakeData/hotelsData.js";
 import star from "../../images/star.png";
 import GoogleMaps from "../maps/GoogleMaps";
 

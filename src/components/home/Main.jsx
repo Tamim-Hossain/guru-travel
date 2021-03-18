@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import displayData from "../../fakeData/displayData.json";
+import displayData from "../../fakeData/displayData.js";
 import "./Main.css";
 
 const Main = () => {

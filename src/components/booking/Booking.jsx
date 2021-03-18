@@ -3,7 +3,7 @@ import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { useHistory, useParams } from "react-router-dom";
 import { UserContext } from "../../App";
-import displayData from "../../fakeData/displayData.json";
+import displayData from "../../fakeData/displayData.js";
 
 const Booking = () => {
 	const [, , , setBookingInfo] = useContext(UserContext);
