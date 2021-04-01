@@ -20,7 +20,7 @@ const Main = () => {
 	return (
 		<Container fluid>
 			<Row className="d-flex align-items-center pt-5 mt-3">
-				<Col md={5} className="pl-5">
+				<Col md={4} className="pl-5 ml-5">
 					<h1 className="font-weight-bold text-uppercase">{placeName}</h1>
 					<p>{shortDescription}</p>
 					<Button className="px-4" variant="danger" as={Link} to={`/booking/${url}`}>
