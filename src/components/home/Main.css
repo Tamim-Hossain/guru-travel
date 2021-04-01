@@ -1,6 +1,7 @@
 .home-md-7 {
 	display: flex;
 }
+
 .card-img {
 	height: 350px;
 	position: relative;
@@ -8,16 +9,19 @@
 	border: 4px solid #6c757d !important;
 	border-radius: 20px !important;
 }
+
 .card {
 	border: none !important;
 	width: 15rem;
 	margin: 10px;
 	cursor: pointer;
 }
+
 .cardActive {
 	border: 6px solid #ffc107 !important;
 	border-radius: 20px !important;
 }
+
 .card-title {
 	position: absolute;
 	left: 15px;
@@ -27,6 +31,7 @@
 	opacity: 0.8 !important;
 	border-radius: 15px;
 }
+
 .card-body {
 	padding: 0 !important;
 }
